@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Poppins:wght@100;300;500&family=Source+Code+Pro:wght@200;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Karla', sans-serif;
+}
+
+body{
+    background-color: #1C1C1C;
+}
+
+.linktree{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+    margin: 40px auto;
+    gap: 20px;
+}
+
+.linktree img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.linktree h1{
+    font-size: 36px;
+}
+
+
+.linktree a i{
+    margin: 5px;
+    color: #fff;
+    background-color: rgb(39, 39, 39);
+}
+
+footer{
+    text-align: center;
+    margin-top: 70px;
+    color: rgb(173, 173, 173);
+}
+
+@media (min-width: 1024px) {
+    .linktree{
+        width: 40vw;
+    }
+}
+
+.dKttEj {
+    border: none;
+    border-radius: 12px;
+    padding: 3px;
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.2s ease 0s;
+    text-decoration: none;
+    background: linear-gradient(90deg, rgb(225, 0, 112) -6.31%, rgb(152, 0, 180) 102.58%);
+    animation: 1s linear 0s infinite normal none running hvVbpe;
+}
+
+.dKttEj span {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: 60px;
+    width: 700px;
+    border-radius: 12px;
+    background-color: rgb(39, 39, 39);
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0px;
+    text-align: center;
+}
+
+@keyframes hvVbpe {
+    0% {
+        background: linear-gradient(0deg, rgb(225, 0, 112) -6.31%, rgb(152, 0, 180) 102.58%);
+    }
+    
+    12% {
+        background: linear-gradient(45deg, rgb(225, 0, 112) -6.31%, rgb(152, 0, 180) 102.58%);
+    }
+    
+    25% {
+        background: linear-gradient(90deg, rgb(225, 0, 112) -6.31%, rgb(152, 0, 180) 102.58%);
+    }
+    
+    50% {
+        background: linear-gradient(rgb(225, 0, 112) -6.31%, rgb(152, 0, 180) 102.58%);
+    }
+    
+    
+    62% {
+        background: linear-gradient(225deg, rgb(225, 0, 112) -6.31%, rgb(152, 0, 180) 102.58%);
+    }
+    
+    75% {
+        background: linear-gradient(270deg, rgb(225, 0, 112) -6.31%, rgb(152, 0, 180) 102.58%);
+    }
+    
+    82% {
+        background: linear-gradient(315deg, rgb(225, 0, 112) -6.31%, rgb(152, 0, 180) 102.58%);
+    }
+    
+    100% {
+        background: linear-gradient(360deg, rgb(225, 0, 112) -6.31%, rgb(152, 0, 180) 102.58%);
+    }
+}
