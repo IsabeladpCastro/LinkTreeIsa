@@ -24,6 +24,7 @@ body{
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    border: 2px solid #fff;
 }
 
 .linktree h1{
@@ -37,9 +38,22 @@ body{
     background-color: rgb(39, 39, 39);
 }
 
+.icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 175px;
+    margin: 40px auto;
+    gap: 20px;
+}
+
+.icons i{
+    font-size: 30px;
+}
+
 footer{
     text-align: center;
-    margin-top: 70px;
+    margin-top: 50px;
     color: rgb(173, 173, 173);
 }
 
